@@ -2,12 +2,18 @@
 
 This project implements a React component that displays a list of topics and allows filtering by a search input. It simulates TOTLE's topic browsing UI for the Catalogue Management System.
 
+## Repository
+
+GitHub Repository: [https://github.com/Yashaswirai/Totle-Assessment](https://github.com/Yashaswirai/Totle-Assessment)
+
 ## Features
 
 - Search input that filters topics by name (case-insensitive) as the user types
 - Topic cards displaying name and category
 - "No topics found" message when no matches are found
 - Responsive design that works on various screen sizes
+- Dark theme with modern UI elements
+- Hover effects and visual feedback for better user experience
 
 ## Setup Instructions
 
