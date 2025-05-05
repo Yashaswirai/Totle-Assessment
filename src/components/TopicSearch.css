@@ -1,0 +1,78 @@
+.topic-search-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--surface-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px var(--shadow-color);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary-text);
+  font-weight: 600;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: var(--input-bg);
+  color: var(--primary-text);
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.search-box input::placeholder {
+  color: var(--secondary-text);
+}
+
+.topics-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.topic-card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  transition: all 0.2s ease;
+  border: 1px solid var(--input-border);
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  background-color: var(--card-hover);
+  border-color: var(--accent-color);
+}
+
+.topic-card h3 {
+  margin-bottom: 10px;
+  color: var(--primary-text);
+  font-weight: 500;
+}
+
+.topic-card p {
+  color: var(--secondary-text);
+  font-size: 14px;
+}
+
+.no-topics {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  color: var(--secondary-text);
+  font-size: 18px;
+  border: 1px dashed var(--input-border);
+}
